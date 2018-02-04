@@ -1,20 +1,29 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+OpenGL ES 3.0 Programming Guide
+===============================
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This repository contains the sample code for the OpenGL ES 3.0 Programming Guide by Addison-Wesley Professional (http://www.opengles-book.com). 
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Platforms ##
+The sample code for the OpenGL ES 3.0 Programming Guide currently builds on the following platforms:
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+* Microsoft Windows 
+* Linux X11
+* Android 4.3+ NDK (C/C++)
+* Android 4.3+ SDK (Java)
+* iOS7
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Instructions for building for each platform are provided in Chapter 16, "OpenGL ES Platforms".
+
+## Authors ##
+Dan Ginsburg<br/>
+Budirijanto Purnomo<br/>
+Previous contributions: Dave Shreiner, Aaftab Munshi
+
+## Reader Contributions ##
+We would like to thank the following people for their contributions to the source code:
+* Javed Rabbani Shah for contributing the Android SDK port as well as helping with the NDK port
+* Jarkko Vatjus-Anttila for contributing the original Linux/X11 port for the OpenGL ES 2.0 Programming Guide
+* Eduardo Pelegri-Llopart and Darryl Gough for contributing the Blackberry Native SDK port for the OpenGL ES 2.0 Programming Guide (we have not yet ported the ES 3.0 book to a Blackberry platform)
+
+
+
